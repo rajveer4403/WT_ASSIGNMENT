@@ -1,0 +1,186 @@
+/* ---------------------------------------------------------
+   RSD REAL ESTATE – Custom High-Quality Styles
+   Author: Rajvirsinh Dodiya
+   --------------------------------------------------------- */
+
+/* General Page Setup */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+  color: #1c1c1c;
+  scroll-behavior: smooth;
+  line-height: 1.6;
+}
+
+/* Navbar Styling */
+.navbar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-brand {
+  letter-spacing: 1px;
+  transition: 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #ffc107 !important;
+  transform: scale(1.05);
+}
+
+.nav-link {
+  color: #f5f5f5 !important;
+  margin-left: 15px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffc107 !important;
+}
+
+/* Hero Section */
+header {
+  background-image: linear-gradient(to right, #f59e0b, #d97706);
+  color: white;
+  padding: 90px 0;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+header p {
+  font-size: 1.2rem;
+  opacity: 0.95;
+}
+
+header .btn {
+  font-weight: 600;
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+header .btn:hover {
+  background-color: #212529;
+  color: #ffc107;
+  transform: translateY(-3px);
+}
+
+/* Property Section */
+#properties {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.card img {
+  height: 230px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  color: #d97706;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.btn-dark {
+  border-radius: 30px;
+  transition: 0.3s ease;
+}
+
+.btn-dark:hover {
+  background-color: #ffc107;
+  color: #1c1b1b;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #1c1b1b;
+  color: #f8f9fa;
+  letter-spacing: 0.5px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+/* About and Contact Pages */
+.container h1 {
+  font-weight: 700;
+}
+
+.container p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 1.05rem;
+  color: #333;
+}
+
+/* Contact Form */
+form input,
+form textarea {
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #d97706;
+  box-shadow: 0 0 5px rgba(217, 119, 6, 0.3);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  header h1 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.1rem;
+  }
+  .card img {
+    height: 180px;
+  }
+}
+
+@media (max-width: 576px) {
+  header {
+    padding: 60px 0;
+  }
+  header p {
+    font-size: 1rem;
+  }
+}
